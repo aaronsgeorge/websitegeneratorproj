@@ -1,0 +1,253 @@
+body{
+    text-align: center;
+}
+
+.font-Verdana {
+  font-family: Verdana, sans-serif;
+}
+
+.font-TimesNewRoman {
+  font-family: "Times New Roman", serif;
+}
+  
+#Book-Title{
+    background-color: #080808;
+    color: rgb(0, 0, 0); 
+}
+
+.Listing{
+    padding: 3% 15%;
+}
+
+.head-title{
+  font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Nav-bar */
+
+.navbar-brand{
+    font-family: 'Bangers', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.nav-item{
+    padding-left: 1.5rem;
+    color: #000000;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: "Montserrat-Thin", sans-serif;
+}
+
+
+.login{
+    padding-right: 10%;
+}
+.Mimg{
+    height: 85%;
+    width: 65%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+   filter: drop-shadow(0 0 0.75rem rgb(244, 243, 247));
+    box-shadow: 2px 2px 2px rgb(214, 214, 216);
+    
+    
+}
+.img{
+    height: 85%;
+    width: 75%;
+    float: right;
+    margin-left : 0px;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 0.75rem rgb(244, 243, 247));
+    box-shadow: 2px 2px 2px rgb(214, 214, 216); 
+    
+    
+}
+
+.Desc{
+    background-color: #000000;
+    color: rgb(236, 236, 236);
+    padding: 1.5rem;
+}
+
+.Mov-Des{
+    padding: 3% 15% 15%;
+}
+
+.Mov-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 65px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+ .Desc{
+    text-align: center;
+ }
+
+#pricing h2{
+    padding:2%;
+}
+.row h2,h3,p{
+    color: #ffffff;
+}
+
+
+  
+  #navbar {
+    background-color: #fcfcfc;
+    overflow: hidden;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  
+  #preview img {
+  max-width: 30%;
+  height: 30%;
+  margin-top: 10px; /* Add margin to the top */
+  border-radius: 5% 5% 5% 5%;
+  filter: drop-shadow(0 0 0.75rem rgb(244, 243, 247));
+  box-shadow: 2px 2px 2px rgb(255, 255, 255); 
+}
+
+  #preview {
+    border: 5px solid #ccc;
+    padding: 20px;
+    margin-top: 40px;
+    height: 150%; 
+    width: 100%;
+  }
+
+  #website {
+    max-width: auto;
+    margin: 20px auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  #imageURL {
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 50%;
+  }
+
+  #navbar {
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+  #preview-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #download-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .page-editor {
+    display: none;
+  }
+
+  .page-editor.active {
+    display: block;
+  }
+
+  form {
+    max-width: 600px;
+    width: 80%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Updated to center the form horizontally */
+    align-items: center;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#generatedWebsite {
+    margin-top: 30px;
+    text-align: left;
+}
